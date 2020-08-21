@@ -4,6 +4,7 @@ include 'bootcss.php';
 include_once 'navbar.php';
 include 'connection.php';
 
+
 if(empty($_SESSION['ses_email']) && empty($_SESSION['ses_password'])){
     if(!empty($_REQUEST['submit'])){
     //Database details
