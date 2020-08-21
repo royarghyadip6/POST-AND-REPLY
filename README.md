@@ -78,6 +78,33 @@ It is the CDN link of bootstrap javascript.
 
 it is the database connection file.
 
+---
+
+## Run application on localhost
+
+1. Download the XAMPP from this link https://www.apachefriends.org/download.html .
+
+2. Install it on your machine.
+
+3. Download the source code on your machine from this link https://github.com/royarghyadip6/POST-AND-REPLY.git .
+
+4. Extract the Zip file of the source code and paste it inside a folder named 'abc' (C:\xampp\htdocs\abc) .
+
+5. Run the XAMPP and start Apache & Mysql.
+
+6. Go to Browser and type http://localhost/phpmyadmin/ .
+
+7. Create a database named "USER_DB" ( without "" ).
+
+8. Inside "USER_DB" create "USER_DATA" table which columns are (ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE,PASSWORD,TOKEN,STATUS,USER_IMAGE,DOB,USER_BIO) .
+
+9. Inside "USER_DB" create "POST" table which columns are (ID,EMAIL,NAME,TIME_DATE,COMMENT,USER_IMAGE) .
+
+10. Inside "USER_DB" create "COMMENT_REPLY" table which columns are (CHILD_ID,PARENT_ID,NAME,COMMENT,DATE_TIME,IMAGE) .
+
+11. Now in browser url paste http://localhost/abc/ (abc is the folder name inside the htdocs).
+
+12. Done. The project will be running on localhost.
 
 ---
 
